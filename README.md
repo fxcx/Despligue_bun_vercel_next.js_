@@ -12,3 +12,7 @@ intalar paquetes atravez bun.lock maneja nuestras dependencias, ese seria nuestr
 - Como agregar nuestros paquetes **bun add** y -D para paquetes de desarrollo 
 
 - Para bibliotecas externas e desarrollo usarias **bunx**
+
+## Despligue
+
+bun add -g vercel
