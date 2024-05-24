@@ -15,4 +15,14 @@ intalar paquetes atravez bun.lock maneja nuestras dependencias, ese seria nuestr
 
 ## Despligue
 
-bun add -g vercel
+- bun add -g vercel
+
+configuramos el despligues
+- bunx vercel
+
+![Texto alternativo](despligue_vercel.png)
+
+a travez de un proyecto existente en github hacemos el despligue teniendo en cuenta que este proyecto no exista ya en vercel en vercel.
+para hacer actualizaciones solo tendrias que hacer un push de nuetros cambios al repositorio y automaticamente se veria reflejado en el hosting de vercel.
+
+. A partir de ahora usaremos una rama de desarrollo para tener diferentes entornos
